@@ -1,0 +1,176 @@
+@media all and (max-width:990px){
+    .menu-items{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        display: none;
+        background:#0A58CA ;
+    }
+    .menu-icon{
+        display: block !important;
+    }
+    .menu ul li.active a,
+    .menu ul li a{
+        color: #fff;
+        padding: .5rem 0;
+    }
+    .menu ul li a:hover{
+        color: #000;
+    }
+    .menu ul{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .baner-right{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    /* Passion Area */
+    .passion-image img{
+        max-width: 100%;
+        width: 90%;
+      }
+
+      /* Team Members Area */
+      /* Apps */
+      .apps-carousel .owl-prev{
+        left: -2rem;
+      }
+      .apps-carousel .owl-next{
+        right: -2rem;
+      }
+    
+}
+
+@media all and (max-width:767px){
+    .passion-single-row .passion-content{
+        padding-bottom: 5rem;
+    }
+    .passion-single-row:nth-child(odd) .col-md-6:last-child{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+      }
+      .passion-single-row:nth-child(odd) .passion-content{
+        float: none;
+      }
+      .passion-single-row:nth-child(even) .passion-image{
+        text-align: left;
+      }
+      /* Prements Area */
+      .prement-tittle h2 {
+        font-size: 6.2rem;
+        line-height: 6rem;
+    }
+    /* Footer Area */
+    .single-footer-items{
+        margin-bottom: 3rem;
+    }
+    .footer-social-icon {
+        margin-top: 3rem;
+    }
+    .footer-social-icon ul{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /* Industries Area */
+    .gallery-controls ul li {
+        border: 1px solid #345DEE;
+        margin: 1rem .5rem;
+      }
+    /* Contact Page */
+    .contact-dtls {
+        float: left;
+        margin-top: 5rem;
+    }
+    /* Pricing Area */
+    .packge-item-gap{
+        margin-bottom: 5rem;
+    }
+    
+}
+@media all and (max-width:575px){
+    .header-buttons a{
+        display: none;
+    }
+    .menu-icon{
+        margin-right: 1rem !important;
+    }
+    h1{
+        font-size: 5rem;
+      }
+      .baner-left h1{
+        max-width: 40rem;
+     }
+     .subscribe-form form{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+        -webkit-box-pack: inherit;
+            -ms-flex-pack: inherit;
+                justify-content: inherit;
+        -webkit-box-align: inherit;
+            -ms-flex-align: inherit;
+                    -ms-grid-row-align: inherit;
+                align-items: inherit;
+      }
+     .subscribe-form form input[type="email"],
+     .subscribe-form form input[type="submit"]{
+        -webkit-box-flex:0;
+            -ms-flex:0 0 100%;
+                flex:0 0 100%;
+        max-width:100% ;
+      }
+      .subscribe-form form input[type="submit"]{
+        margin-top: 1rem;
+      }
+      .baner-right img{
+        max-width: 80%;
+      }
+    /* Team Members Area */
+    /* Apps */
+    .apps-carousel .owl-prev{
+        left: 1rem;
+     }
+    .apps-carousel .owl-next{
+        right: 1rem;
+    }
+    }
+@media all and (max-width:370px){
+    h1{
+        font-size: 4rem;
+      }
+      .baner-left h1{
+        max-width: 25rem;
+     }
+     .baner-left > p {
+        font-size: 1.6rem;
+    }
+    /* Passion Area */
+    h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    h3 {
+        font-size: 2.7rem;
+    }
+    .section-tittle p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .passion-content p {
+        padding-right: 0;
+    }
+    .prement-tittle h2 {
+        font-size: 4.2rem;
+        line-height: 4rem;
+    }
+}
